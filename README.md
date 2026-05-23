@@ -24,7 +24,7 @@ while True:
     ClientMessage=c.recv(1024).decode() 
     c.send(ClientMessage.encode())
 
-SERVEER:
+SERVER:
 
 import socket 
 s=socket.socket() 
